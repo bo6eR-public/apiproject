@@ -1,0 +1,18 @@
+{
+	"ulid": "01KRED2F0EC8B85S5F366DNNYV",
+	"minTime": 1778587201135,
+	"maxTime": 1778594400000,
+	"stats": {
+		"numSamples": 621188,
+		"numFloatSamples": 621188,
+		"numSeries": 726,
+		"numChunks": 5801
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01KRED2F0EC8B85S5F366DNNYV"
+		]
+	},
+	"version": 1
+}
