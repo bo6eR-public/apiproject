@@ -20,8 +20,7 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
-          kubectl apply -f deployment.yaml -n dev
-          kubectl apply -f service.yaml -n dev
+          helm upgrade --install my-app ./my-app-chart -n dev
 
       - name: Restart deployment
         run: |
